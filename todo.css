@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Amatic+SC&display=swap');
+
+body {
+    background-color: rgb(48, 105, 180);
+    font-family: 'ABeeZee', sans-serif;
+    font-size:1rem;
+}
+
+.container{
+    max-width:500px; 
+    margin:auto;
+    text-align: center;
+}
+
+.contents {
+    margin:auto;
+    width:400px;
+}
+
+.submit-container {
+    text-align:justify;
+    background-color: white;
+    border-radius:10px;
+}
+
+.submit-container input {
+    margin:0;
+    padding:0;
+    border:1px solid white;
+    outline:none;
+    width: 350px;
+    height: 30px;
+    border-radius:10px;
+}
+
+.submit-container button{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    float:right;
+    margin-right:10px;
+    width:30px;
+    height:30px;
+    border-radius:10px;
+    background-color: white;
+    transition: .2s ease-in-out;
+}
+
+.submit-container button:hover{
+    color:rgb(46, 83, 130)
+}
+
+.submit-container button:active{
+    color:rgb(27, 52, 83)
+}
+
+.to-do {
+    text-align: justify;
+    display:flex;
+    background-color: rgb(138, 177, 229);
+    border-radius:10px;
+    margin-top:15px;
+    min-height:30px;
+    transition:.2s ease-in-out;
+}
+
+.mission{
+    padding:5px;
+    width: 340px;
+
+}
+
+.to-do .checked{
+    text-align: center;
+    margin:auto;
+    height: auto;
+    color:rgb(48, 105, 180);
+    transition: .5s ease-in-out;
+}
+
+.to-do .checked:hover{
+    color:rgb(19, 46, 81);
+}
+
+.to-do .checked:active{
+    color:rgb(99, 87, 87);  
+}
+
+.deleted {  
+    opacity: 0.005;
+}
+
